@@ -1,5 +1,5 @@
 require 'faraday'
-require 'faraday_middleware'
+
 
 module Mattermost
 	module Request

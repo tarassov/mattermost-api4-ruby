@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "mattermost-api4-ruby"
-  spec.version       = "0.0.11"
+  spec.version       = "0.0.12"
   spec.authors       = ["Takayuki Maruyama"]
   spec.email         = ["bis5.wsys@gmail.com"]
 
@@ -22,8 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "github_changelog_generator"
 
-  spec.add_dependency "faraday", "~> 1.0"
-  spec.add_dependency "faraday_middleware", "~> 1.2"
+  spec.add_dependency "faraday", "~> 2.0"
   spec.add_dependency "httpclient", ">= 2.2"
   spec.add_dependency "faye-websocket", "~> 0.10"
   spec.add_dependency "event_emitter", "~> 0.2"
