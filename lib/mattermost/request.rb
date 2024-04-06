@@ -40,7 +40,7 @@ module Mattermost
 				:url => server
 			}) do |connection|
 				connection.response :json
-				connection.adapter :httpclient
+				connection.adapter Faraday.default_adapter
 			end
 		end
 
